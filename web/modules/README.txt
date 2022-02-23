@@ -1,4 +1,4 @@
-Modules extend your site functionality beyond Drupal core. Test Update
+Modules extend your site functionality beyond Drupal core.
 
 WHAT TO PLACE IN THIS DIRECTORY?
 --------------------------------
