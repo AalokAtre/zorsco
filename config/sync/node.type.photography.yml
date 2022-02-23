@@ -1,0 +1,18 @@
+uuid: 80d1422d-403f-4489-a8b4-de86a56f7597
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Photography
+type: photography
+description: 'Add content related to photography.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

@@ -1,0 +1,39 @@
+uuid: e263ea63-169c-4f93-baae-e3d14020b785
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.photography.body
+    - field.field.node.photography.field_pictures
+    - node.type.photography
+  module:
+    - image
+    - text
+    - user
+id: node.photography.default
+targetEntityType: node
+bundle: photography
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pictures:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

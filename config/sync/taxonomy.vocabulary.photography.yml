@@ -1,0 +1,8 @@
+uuid: 5ff132c9-55cc-476e-aac6-16abfe5b660e
+langcode: en
+status: true
+dependencies: {  }
+name: Photography
+vid: photography
+description: 'Add terms that can be used to categorize content for type photography'
+weight: 0
