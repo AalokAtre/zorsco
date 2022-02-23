@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.photography.body
+    - field.field.node.photography.field_category
     - field.field.node.photography.field_pictures
     - node.type.photography
   module:
@@ -36,4 +37,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_category: true
