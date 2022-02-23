@@ -1,6 +1,6 @@
 # Composer template for Drupal projects
 
-[![main](https://github.com/AalokAtre/zorsco/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/drupal-composer/drupal-project/actions/workflows/ci.yml)
+[![main](https://github.com/AalokAtre/zorsco/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AalokAtre/zorsco/actions/workflows/ci.yml)
 
 
 This project template provides a starter kit for managing your site
