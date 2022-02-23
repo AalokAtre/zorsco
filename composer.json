@@ -22,6 +22,7 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/cshs": "^3.5",
+        "drupal/google_analytics": "^4.0",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6",
         "vlucas/phpdotenv": "^5.1",
