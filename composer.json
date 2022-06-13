@@ -25,6 +25,7 @@
         "drupal/cshs": "^3.5",
         "drupal/google_analytics": "^4.0",
         "drupal/webform": "^6.1",
+        "drupal/zuvi": "^8.1",
         "drush/drush": "^10.6",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"
@@ -43,7 +44,8 @@
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "autoload": {
