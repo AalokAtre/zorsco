@@ -1,0 +1,22 @@
+uuid: 2bef5ebb-6714-4943-bcad-9f7a72b4d545
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zorsco
+_core:
+  default_config_hash: X35hAr_xkErqMKhSngilKyARyZtPVqAeGadR7WuZEwg
+id: zorsco_content
+theme: zorsco
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

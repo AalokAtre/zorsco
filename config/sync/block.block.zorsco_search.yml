@@ -1,0 +1,23 @@
+uuid: 333d404c-0384-41f3-8234-2683d4b20237
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - zorsco
+_core:
+  default_config_hash: 60B9ODnLakdmzY_pKrU5XCpi3lzLkenbgSsCGvLnrLY
+id: zorsco_search
+theme: zorsco
+region: search_box
+weight: -19
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search here..'
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

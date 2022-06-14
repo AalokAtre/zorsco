@@ -1,0 +1,27 @@
+uuid: 6d15b2c9-57b7-45ab-9a2c-1d8d4d3621a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - zorsco
+_core:
+  default_config_hash: mwNCCS5Q_Dl_A7WwWlIDx0or4oRZt2wBVFHSY2oZkoc
+id: zorsco_main_menu
+theme: zorsco
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 5
+  expand_all_items: false
+visibility: {  }

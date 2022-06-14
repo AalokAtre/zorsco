@@ -1,0 +1,22 @@
+uuid: 59842269-7833-4f39-9ed6-eafed0c56247
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zorsco
+_core:
+  default_config_hash: Ql-5SP0-nMyJ5UbCGDxKZNHLjEB2yXBCw7it8LnXP_c
+id: zorsco_breadcrumbs
+theme: zorsco
+region: page_header
+weight: -17
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
