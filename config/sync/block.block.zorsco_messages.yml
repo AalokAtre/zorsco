@@ -1,0 +1,22 @@
+uuid: 412888c3-2b0f-4e26-bd02-8a74f6d02ec7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zorsco
+_core:
+  default_config_hash: XdD9sepXYD_vDiC5cxDAgLJl-GrWyymzBbFuvqeymm0
+id: zorsco_messages
+theme: zorsco
+region: highlighted
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

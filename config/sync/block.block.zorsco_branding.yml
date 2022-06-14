@@ -1,15 +1,15 @@
-uuid: f030900d-4c15-49ee-83fa-1752569d3b6c
+uuid: b2682023-03be-491c-9b5a-182ad26e8d44
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - zuvi
+    - zorsco
 _core:
   default_config_hash: 9kvJX0G5hL0Bs5UcV3D-6hXTd66lP7mu10wAIqlgmVM
-id: zuvi_branding
-theme: zuvi
+id: zorsco_branding
+theme: zorsco
 region: site_branding
 weight: -4
 provider: null

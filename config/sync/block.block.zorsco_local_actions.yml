@@ -1,0 +1,20 @@
+uuid: 4bab8484-8271-4254-a88d-377b353d76dd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - zorsco
+_core:
+  default_config_hash: YP2-5SZI5iVVJsWaWzL2cbzX4HibPmS938sWIpquqWw
+id: zorsco_local_actions
+theme: zorsco
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

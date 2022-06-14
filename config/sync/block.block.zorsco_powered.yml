@@ -1,0 +1,22 @@
+uuid: fdd5279b-35db-4c6c-91fc-9d240c9de1ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zorsco
+_core:
+  default_config_hash: NO4k1ZYfGd6QvBm-YfEZjpjO-FlqCfA46FmgNW--rPQ
+id: zorsco_powered
+theme: zorsco
+region: hidden_blocks
+weight: -17
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
