@@ -1,7 +1,7 @@
 .frontpage .header {
   background: #020312;
   background: var(--header-bg);
-  height: auto;
+  height: 50vh;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
