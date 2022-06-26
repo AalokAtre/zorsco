@@ -100,3 +100,7 @@
   display: table;
   clear: both;
 }
+
+ol li{
+  list-style: none !important;
+}
