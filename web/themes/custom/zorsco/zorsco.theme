@@ -1,5 +1,0 @@
-<?php
-
-function zorsco_preprocess_image(&$variables) {
-  $variables['attributes']['class'][] = "card__image";
-}
