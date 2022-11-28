@@ -27,11 +27,13 @@ module:
   help: 0
   history: 0
   image: 0
+  kickstarter_evaluator: 0
   layout_builder: 0
   layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   node: 0
   options: 0
   page_cache: 0
@@ -43,6 +45,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   user: 0
