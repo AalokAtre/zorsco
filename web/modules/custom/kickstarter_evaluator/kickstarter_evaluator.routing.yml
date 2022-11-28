@@ -1,0 +1,7 @@
+kickstarter.create:
+  path: '/create-new-campaign'
+  defaults:
+    _form: 'Drupal\kickstarter_evaluator\Form\CreateCampaignForm'
+    _title: 'Add New Kickstarter Campaign'
+  requirements:
+    _permission: 'access_content'
