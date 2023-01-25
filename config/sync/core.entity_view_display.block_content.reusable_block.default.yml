@@ -18,12 +18,12 @@ bundle: reusable_block
 mode: default
 content:
   body:
-    type: gutenberg_text
     label: hidden
+    type: gutenberg_text
+    weight: 0
     settings:
       format: gutenberg
       content_only: true
     third_party_settings: {  }
-    weight: 0
     region: content
 hidden: {  }

@@ -1,4 +1,0 @@
-name: KickStater Evaluator
-description: "Evaluates the probablity of success of a kickstarter project"
-type: module
-core_version_requirement: ^8 || ^9
